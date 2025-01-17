@@ -34,7 +34,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    logger.info("-------")
+    logger.info("#GY9LCQLGJ")
     logger.info(f"Logged in as {bot.user}")
     logger.info("-------")
     bot.test_channel = bot.get_channel(settings['oakChannels']['testChat'])
